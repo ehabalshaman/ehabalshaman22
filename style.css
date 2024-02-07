@@ -163,7 +163,10 @@ p{
     transition: 0.5s;
 }
 
-@media screen and (max-width: 580px){
+
+
+@media screen and (max-width:600px){
+    
     header{
         position: fixed;
         background-color: black;
@@ -171,11 +174,9 @@ p{
     }
     header nav{
         display: flex;
-        justify-content:  space-between;
+        justify-content: center;
         align-items: center;
         width: 100%;
-        padding: 2px;
-        margin: auto;
         height: 100px;
     }
     
@@ -190,14 +191,14 @@ header nav .logo  span{
 }
 
 header nav .social-links a i{
-    display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(255, 221, 0);
     font-size: 20px;
-    margin-left: 10px;
+    padding-right: 14px;
 }  
 header nav .links li a{
+    display: none;
     color: white;
     font-size: 13px;
     padding:  3px;
