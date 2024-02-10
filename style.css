@@ -37,10 +37,18 @@
     .navbar .navbar-toggler:focus{
         box-shadow: none;
     }
+
+    .social-links a {
+
+        direction: none;
+    }
     .social-links a i{
         color: gold;
         font-size: 30px;
-        margin-left: 19px;
+        margin-left: 40px;
+        padding: 10px;
+        transition: all ease-in-out .3s;
+        text-decoration: none;
         direction: none;
     }  
     .social-links a i:hover{
@@ -50,8 +58,9 @@
     }
     .navbar-brand:hover{
     color: gold;
-    transform: scale(1.3);
+    transform: scale(1.4);
     transition: 0.4s ease-in-out;
+    padding: 20px;
     }
 
     .hero-sec{
@@ -136,21 +145,22 @@
             justify-content: center;
             align-items: center;
             width: 50%;
+            margin: 55px;
          }
 
          .social-links{
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 30px;
+            padding: 28px;
             margin-right: 180px;
          }
 
          .social-links a i{
             color: gold;
             font-size: 30px;
-            margin: 2px;
-            padding: 4px;
+            margin: 15px;
+            padding: 20px;
             direction: none;
         }  
 
@@ -163,7 +173,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin:50px;
+            padding: 50px;
         }
         .navbar-brand:hover{
             color: gold;
@@ -207,59 +217,102 @@
                 font-size: 18px;
                 margin: 10px 0 50px;
                 line-height: 1.7;
-            }
-            
-    }
-
-
-    @media screen and (max-width:767px){
-
-
-        .hero-sec{
-            display: flex;
-            height: 75vh;
-            padding: 0px;
-            margin: 0px;
-        }
-        .hero-sec img{
-            display: none;
-         }
-
-         .navbar .navbar-toggler{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 55px;
-         }
-
-         .social-links{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 30px;
-            margin-right: 180px;
-         }
-
-         .social-links a i{
-            color: gold;
-            font-size: 30px;
-            margin: 2px;
-            padding: 4px;
-            direction: none;
-        }  
-
-        .social-links a i:hover{
-            color: gold;
-            transform: scale(2.5);
-            transition: 0.3s ease-in-out ;
+          }  
         }
 
-        .navbar-brand:hover{
-            color: gold;
-            transform: scale(1.3);
-            transition: 0.4s ease-in-out;
+
+        @media only screen and (min-width: 402px) and (max-width: 750px){
+
+            .hero-sec{
+                display: flex;
+                height: 75vh;
+                padding: 0px;
+                margin: 0px;
             }
-
-
-    }
+            .hero-sec img{
+                display: none;
+             }
     
+             .navbar .navbar-toggler{
+                display: flex;
+                font-size: larger;
+                justify-content: center;
+                align-items: center;
+                width: 40%;
+                margin: 170px;
+                padding:  8px;
+             }
+    
+             .social-links{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 28px;
+                margin:20px
+             }
+    
+             .social-links a i{
+                color: gold;
+                font-size: 30px;
+                margin: 45px;
+                padding: 30px;
+                direction: none;
+            }  
+    
+            .social-links a i:hover{
+                color: gold;
+                transform: scale(2.5);
+                transition: 0.3s ease-in-out ;
+            }
+            .navbar-brand{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 200px;
+                margin-top: 70px;
+            }
+            .navbar-brand:hover{
+                color: gold;
+                transform: scale(1.3);
+                transition: 0.4s ease-in-out;
+                }
+    
+                .hero-sec{
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+    
+                 
+                }
+                .hero-sec .cotaniner{
+                    width: 85%;
+                    margin: auto;
+                    padding: 160px;
+                    display:  flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                
+                }
+                
+                .hero-sec .cotaniner .div-tekst{
+                    width: 50%;
+                }
+                 h1{
+                    color: white;
+                    font-size: 70px;
+                    margin-bottom: 8px;
+                }
+                
+                 span{
+                    font-size: 40px;
+                    color: gold;
+                }
+                p{
+                    color: #c8c6c6;
+                    font-size: 18px;
+                    margin: 10px 0 50px;
+                    line-height: 1.7;
+              }  
+        }
+
