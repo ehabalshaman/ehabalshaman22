@@ -56,7 +56,7 @@
     .social-links a i{
         color: gold;
         font-size: 30px;
-        margin-left: 40px;
+        margin-left: 30px;
         padding: 10px;
         transition: all ease-in-out .3s;
         text-decoration: none;
@@ -152,22 +152,21 @@
     }
     #about{
         display: flex;
-        padding: 6rem 0;
+       justify-content: center;
+       align-items: center;
     }
     .container2{
         max-width: 1500px;
         margin: auto;
         padding: 0 2rem;
-        margin-bottom: 100px;
+        margin: 100px;
     
     }
 
     #about h2{
-    align-items: center;
-    justify-self: center;
     font-size: 50px;
     color:black ;
-    font-weight: 600;
+    font-weight: 600px;
     letter-spacing: 1px;
     }
     #about hr{
@@ -177,15 +176,7 @@
         border: none;
         margin: 5px auto 0;
     }
-    h4 {
-        color: red;
-    }
 
-
-
-
-
-    
 
        footer{
             background-color: #000;
@@ -302,13 +293,14 @@
 
 
         .scroll-up{
+            background-color: #000;
             position: fixed;
             bottom: 30px;
             right: 20px;
-            font-size: 60px;
+            font-size: 40px;
             color: gold;
-            padding: 5px 12px;
-            border-radius: 5px;
+            padding: 2px 15px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
         
         }
 
@@ -348,29 +340,20 @@
         .hero-sec img{
             display: none;
          }
-       
-        
-
          .social-links{
             display: flex;
             justify-content: center;
             align-items: center;
          }
-
-
-
          .social-links a i{
             color: gold;
             font-size: 30px;
-            margin: 25px;
-            padding: 20px;
+            margin-left: auto;
+            margin-left: auto;
+            padding: 25px;
+
          }
 
-        .social-links a i:hover{
-            color: gold;
-            transform: scale(2.5);
-            transition: 0.3s ease-in-out ;
-        }
 
         .navbar .navbar-toggler{
             width: 28% !important;
@@ -378,25 +361,11 @@
             justify-content: center;
             align-items: center;
             color: white;
-            margin: 40px;
-            margin-left: auto;
-            margin-right: auto;
-            font-size:45px;
+            margin: auto;
+            font-size:30px;
             border-color: white;
-           
-
         }
-
-        
-        .navbar-brand{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-left: 90px;
-            font-size: small;
-          
            
-        }
         .navbar-brand:hover{
             color: gold;
             transform: scale(1.1);
@@ -442,6 +411,10 @@
                 line-height: 1.7;
           }  
 
+          .container{
+            display: block;
+          }
+
           
          .social2-links{
             display: flex;
@@ -477,7 +450,22 @@
             border-radius: 5px;
         
         }    
+
+        #about h4{
+            margin: 20px;
         }
+        #about h4 p{
+            line-height: 1.6em;
+            justify-self: unset;
+            font-size: 25px;
+        }
+        }
+
+
+
+
+
+        
 
 
         @media only screen and (min-width: 426px) and (max-width: 750px){
