@@ -351,20 +351,27 @@
             margin-left: auto;
             margin-left: auto;
             padding: 25px;
-
          }
 
 
         .navbar .navbar-toggler{
-            width: 28% !important;
+            width: 20% !important;
             display: flex;
             justify-content: center;
             align-items: center;
             color: white;
-            margin: auto;
-            font-size:30px;
+            font-size:20px;
             border-color: white;
+            
         }
+
+        .navbar-nav .nav-item a{
+            padding-top: 30px;
+            padding-left: 30px;
+           
+        }
+          
+
            
         .navbar-brand:hover{
             color: gold;
