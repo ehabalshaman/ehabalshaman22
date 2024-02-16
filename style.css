@@ -67,10 +67,6 @@
         transform: scale(2.5);
         transition: 0.3s ease-in-out ;
     }
-
-    .navbar-brand{
-       
-    }
     .navbar-brand:hover{
     color: gold;
     transform: scale(1.4);
@@ -247,7 +243,9 @@
           }
 
          footer h3{
-            margin: 40px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
             margin-bottom: 20px;
            color: white;
           }
@@ -330,6 +328,11 @@
 
 
 
+
+
+
+
+
     @media screen and (max-width:426px) {
         .hero-sec{
             display: flex;
@@ -355,7 +358,7 @@
 
 
         .navbar .navbar-toggler{
-            width: 20% !important;
+            width: 15% !important;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -449,7 +452,7 @@
 
         .scroll-up{
             position: fixed;
-            bottom: 30px;
+            bottom: 100px;
             right: 20px;
             font-size: 30px;
             color: gold;
@@ -463,8 +466,8 @@
         }
         #about h4 p{
             line-height: 1.6em;
-            justify-self: unset;
-            font-size: 25px;
+            justify-self: center;
+            font-size: 30px;
         }
         }
 
@@ -473,6 +476,7 @@
 
 
         
+
 
 
         @media only screen and (min-width: 426px) and (max-width: 750px){
