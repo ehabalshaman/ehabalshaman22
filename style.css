@@ -452,12 +452,10 @@
 
         .scroll-up{
             position: fixed;
-            bottom: 130px;
-            right: 20px;
+            bottom: 30px;
             font-size: 30px;
             color: gold;
-            padding: 5px 12px;
-            border-radius: 5px;
+            border-radius: 3px;
             box-shadow: 0 0.5px 1px rgba(0, 0, 0, 0.1);
         
         }    
@@ -670,9 +668,7 @@
                     padding-left: 30px;
                    
                 }
-                  
-        
-                   
+                                     
                 .navbar-brand:hover{
                     color: gold;
                     transform: scale(1.1);
@@ -769,6 +765,8 @@
                     font-size: 30px;
                 }
                 }
+
+
     
     
     
